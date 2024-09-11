@@ -36,10 +36,10 @@ public class Aluno extends AlunoException {
 		if (nota1 < 0 || nota1 > 10) {
 			
 			 throw new AlunoException ("Nota inválida!");
-		}
+			 
+		} 
 		
 		this.nota1 = nota1;
-		
 	}
 
 	public double getNota2() {
